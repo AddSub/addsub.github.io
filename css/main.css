@@ -3,31 +3,37 @@ html {
     font-family: 'Roboto', sans-serif;
     font-weight: 400; 
 }
+
 body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: linear-gradient(black, grey);
-} 
+}
+
 .splash {
     color: white;
     text-align: center;
 }
+
 .icon {
     margin: 5px;
     padding: 20px;
     text-align: center;
 }
+
 .social {
     margin: 5px;
     padding: 8px;
     text-align: center;
 }
+
 #mc_embed_signup{
     padding: 20px;
     clear:left;
 }
+
 .button {
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
