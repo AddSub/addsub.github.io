@@ -1,59 +1,44 @@
-html {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400; 
-}
-
-body {
+body, html {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: linear-gradient(black, grey);
-}
-
-.splash {
-    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     text-align: center;
 }
 
 .icon {
-    margin: 5px;
-    padding: 20px;
-    text-align: center;
-}
-
-.social {
-    margin: 5px;
-    padding: 8px;
-    text-align: center;
+    margin: 1em;
+    padding: 1em;
 }
 
 #mc_embed_signup{
-    padding: 20px;
+    padding: 1em;
     clear:left;
 }
 
 .button {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  color: white;
-  font-size: 12px;
-  background: #878787;
-  padding: 2px 5px 2px 5px;
-  text-decoration: none;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    background: #878787;
 }
 
 .button:hover {
-  background: #6e6e6e;
-  text-decoration: none;
+    background: #6e6e6e;
 }
+
 input {
-    border-radius: 5px;
+    border-radius: 0.5em;
 }
 
 #social-media-icon {
-    height: 30px;
-    padding: 0px 5px 0px 5px;
+    height: 1.25em;
+    padding: 0.5em;
 }
