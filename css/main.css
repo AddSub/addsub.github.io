@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(black, grey);
+} 
+.splash {
+    color: white;
+    text-align: center;
+}
+.icon {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.social {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+#mc_embed_signup{
+    padding: 20px;
+    clear:left;
+}
+.button {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  background: #878787;
+  padding: 2px 5px 2px 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #6e6e6e;
+  text-decoration: none;
+}
+input {
+    border-radius: 5px;
+}
